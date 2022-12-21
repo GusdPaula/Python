@@ -19,11 +19,11 @@ for v in secret_word:
     result[i] = '_'
     i += 1
 
-# Defining the head
+# Defining the header
 title = 'Secret Word Game'
 welcome = 'Welcome! You need to discover what is the secret word!'
 
-# Printing the head
+# Printing the header
 print('#' * len(welcome))
 print(f"##{' ' * int(((len(welcome) - 3 - len(title))/2))}{title}{' ' * int(((len(welcome) - 3 - len(title))/2))}##")
 print('#' * len(welcome))
